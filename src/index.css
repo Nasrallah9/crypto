@@ -331,9 +331,8 @@ nav .bars:hover {
   display: flex;
   align-items: center;
 }
-.exchange table .name * {
+.exchange table .name *:not(span) {
   margin-right: 10px;
-  /* vertical-align: middle; */
 }
 .exchange table tbody td {
   height: 100%;
