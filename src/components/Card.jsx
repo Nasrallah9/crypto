@@ -2,7 +2,6 @@ import React from "react";
 import millify from "millify";
 import { Link } from "react-router-dom";
 const Card = ({ id, name, image, list }) => {
-  console.log(list);
   return (
     <Link to={`/cryptocur/${id}`}>
       <div className="card">
